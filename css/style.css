@@ -1699,6 +1699,8 @@ body.start .header-style-1 {
 	position: absolute;
 	box-sizing: border-box;
 	background-color: #0A0220;
+    background-image: url(/img/grass.jpg);
+    background-size: cover;
 	padding: 30px;
 	width: 450px;
 	text-align: center;
@@ -1711,10 +1713,12 @@ body.start .header-style-1 {
 .testimonials .item img {
 	width: 100px;
 	border-radius: 50%;
-	border: 13px solid #3B344D;
 }
 .testimonials .item p {
-	color: #ddd;
+    margin-top: 10px;
+	color: rgb(0, 0, 0);
+    background-image: url(/img/wood.jpg);
+    background-size: cover;
 }
 .testimonials .item h2 {
 	font-size: 14px;
