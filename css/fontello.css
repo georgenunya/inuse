@@ -1,11 +1,11 @@
 @font-face {
-  font-family: 'fontello';
-  src: url('../font/fontello.eot?40346953');
-  src: url('../font/fontello.eot?40346953#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?40346953') format('woff2'),
-       url('../font/fontello.woff?40346953') format('woff'),
-       url('../font/fontello.ttf?40346953') format('truetype'),
-       url('../font/fontello.svg?40346953#fontello') format('svg');
+  font-family: ''Josefin Sans'';
+  src: url('../font/'Josefin Sans'.eot?40346953');
+  src: url('../font/'Josefin Sans'.eot?40346953#iefix') format('embedded-opentype'),
+       url('../font/'Josefin Sans'.woff2?40346953') format('woff2'),
+       url('../font/'Josefin Sans'.woff?40346953') format('woff'),
+       url('../font/'Josefin Sans'.ttf?40346953') format('truetype'),
+       url('../font/'Josefin Sans'.svg?40346953#'Josefin Sans'') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,14 +14,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?40346953#fontello') format('svg');
+    font-family: ''Josefin Sans'';
+    src: url('../font/'Josefin Sans'.svg?40346953#'Josefin Sans'') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
+  font-family: "'Josefin Sans'";
   font-style: normal;
   font-weight: normal;
   speak: none;

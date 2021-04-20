@@ -31,12 +31,12 @@
     text-transform: uppercase;
     color: #000;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 24px; }
   .contact-box p, .contact-box a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-size: 16px;
     color: #535353; }
   .contact-box a {
@@ -172,7 +172,7 @@
     line-height: 1.4;
     color: rgba(0, 0, 0, 0.4);
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif; }
+    font-family: ''Josefin Sans'', sans-serif; }
     .post-info a:last-of-type {
       padding-right: 0; }
     @media screen and (max-width: 480px) {
@@ -214,7 +214,7 @@
     text-transform: uppercase;
     color: #000;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 32px; }
@@ -226,7 +226,7 @@
     margin-bottom: 0; }
   .cat-list li a {
     color: #b8b8b8;
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-size: 16px;
     font-weight: 400;
     display: block; }
@@ -236,7 +236,7 @@
     float: right;
     color: #3c3c3c;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: ''Josefin Sans'', sans-serif; }
 
 .popular-post {
   margin-bottom: 34px; }
@@ -261,7 +261,7 @@
   font-size: 12px;
   color: #3c3c3c;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   display: block;
   line-height: 21px; }
   .popular-post-title a:hover {
@@ -270,7 +270,7 @@
 .popular-post-date {
   color: #c6c6c6;
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   font-size: 10px;
   font-weight: 600;
   text-transform: uppercase;
@@ -287,7 +287,7 @@
       font-size: 10px;
       color: #000;
       font-weight: 700;
-      font-family: 'Montserrat', sans-serif;
+      font-family: ''Josefin Sans'', sans-serif;
       text-transform: uppercase;
       background: #fff;
       padding: 16px 20px 16px; }
@@ -341,7 +341,7 @@
   font-size: 12px;
   color: #000;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   text-transform: uppercase;
   background: #fff;
   padding: 19px; }
@@ -384,7 +384,7 @@
     font-size: 12px;
     color: #000;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     text-transform: uppercase;
     display: inline-block;
     padding: 19px 20px 18px; }
@@ -398,7 +398,7 @@
 .single-post-data {
   font-size: 13px;
   color: #bababa;
-  font-family: 'Open Sans', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   display: block;
@@ -411,7 +411,7 @@
       margin-bottom: 25px; } }
 
 .single-box p, .single-box > ul li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
@@ -445,7 +445,7 @@
   font-size: 20px;
   border-left: 2px solid #b69176;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   padding-left: 20px;
   line-height: 31px;
   overflow: hidden;
@@ -458,7 +458,7 @@
     text-transform: uppercase;
     color: #939393;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     letter-spacing: 1px;
     float: left;
     padding-right: 30px;
@@ -551,11 +551,11 @@
   text-transform: uppercase;
   color: #c6c6c6;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: ''Josefin Sans'', sans-serif; }
 
 .comment-title {
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   color: #3c3c3c;
@@ -592,12 +592,12 @@
     text-transform: uppercase;
     color: #c6c6c6;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     margin-top: 35px;
     margin-bottom: 20px; }
   .related-block a {
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     text-transform: uppercase;
     color: #3c3c3c;
     font-size: 22px;
@@ -698,7 +698,7 @@
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   letter-spacing: 1px;
   color: #3b3c49;
   margin-bottom: 65px; }
@@ -720,7 +720,7 @@
 .accordion-title {
   color: #3b3c49;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   text-transform: uppercase;
   font-size: 13px;
   padding-top: 22px;
@@ -769,7 +769,7 @@
 .accordion-content {
   color: #535353;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   padding-right: 10px;
@@ -818,7 +818,7 @@
     line-height: 1.5;
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     margin-bottom: 30px; }
     @media screen and (max-width: 768px) {
       .about-info p {
@@ -834,7 +834,7 @@
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   color: #3b3c49;
   margin-bottom: 45px; }
   @media screen and (max-width: 768px) {
@@ -924,7 +924,7 @@
   color: #b8b8b8;
   font-size: 13px;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: ''Josefin Sans'', sans-serif;
   text-align: center;
   text-transform: uppercase;
   margin: 29px 0 25px; }
@@ -935,7 +935,7 @@
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: ''Josefin Sans'', sans-serif; }
   @media screen and (max-width: 768px) {
     .team-name {
       font-size: 18px; } }
@@ -5256,7 +5256,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .footer__email {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
 }
 
@@ -5724,7 +5724,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .statistics__item-value {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #4d524b;
 }
 
@@ -7190,7 +7190,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .testimonials--simple .testimonials__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   text-transform: uppercase;
 }
 
@@ -7458,7 +7458,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .simplicity__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
 }
 
 @media (min-width: 1200px) {
@@ -7714,7 +7714,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .approach__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
 }
 
@@ -7735,7 +7735,7 @@ textarea.custom-input {
 
 .webpage--beige .approach__card-heading {
   max-width: none;
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
 }
 
@@ -7904,7 +7904,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .reward__project-name a {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
 }
 
@@ -7992,7 +7992,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .rewards__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: normal;
@@ -8373,7 +8373,7 @@ textarea.custom-input {
   font-size: 48px;
   line-height: 1;
   color: #cccccc;
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   letter-spacing: -0.025em;
 }
 
@@ -8557,7 +8557,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .our-journal__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
 }
 
@@ -11972,7 +11972,7 @@ textarea.custom-input {
 
 .webpage--beige .type-service__item-heading {
   max-width: 300px;
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
 }
 
 .webpage--beige .type-service__item-heading:hover {
@@ -12200,7 +12200,7 @@ textarea.custom-input {
   font-size: 24px;
   line-height: 1.27;
   color: #000000;
-  font-family: "EB Garamond", "Georgia", serif;
+  font-family: "EB Garamond", "'Josefin Sans'", serif;
   font-style: normal;
   font-weight: 400;
 }
@@ -12667,7 +12667,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .an-awards__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
 }
 
@@ -16281,7 +16281,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .pricing__title {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   text-transform: lowercase;
 }
 
@@ -17432,7 +17432,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .our-experts__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
 }
 
 .webpage--beige .our-experts__line {
@@ -17664,7 +17664,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .works-section__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: normal;
@@ -17807,7 +17807,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .studio-section__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -17909,7 +17909,7 @@ textarea.custom-input {
 }
 
 .webpage--beige .studio-hero__heading {
-  font-family: "Cinzel", "Georgia", serif;
+  font-family: "Cinzel", "'Josefin Sans'", serif;
   color: #ffffff;
 }
 

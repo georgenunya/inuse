@@ -15,10 +15,10 @@
 /*===========FONTS==============*/
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700italic,600italic,600,400italic,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family='Josefin Sans':400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800);
 @font-face {
-    font-family: 'lino';
+    font-family: ''Josefin Sans'';
     src: url('fonts/didotlh-roman-webfont.woff2') format('woff2'),
     url('fonts/didotlh-roman-webfont.woff') format('woff');
     font-weight: normal;
@@ -84,7 +84,7 @@ a, a:link, a:visited, a:active, a:hover {
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-weight: normal;
     font-size: 13px;
     line-height: 1;
@@ -153,7 +153,7 @@ html {
 
 
 .exclusions {
-  font-family: Georgia;
+  font-family: 'Josefin Sans';
   font-size: 8pt;
   letter-spacing: 1px;
   text-shadow: none;
@@ -204,7 +204,7 @@ html {
   font-size: 8pt;
   letter-spacing: 5px;
   font-weight: bold;
-  font-family: Geogia;
+  font-family: 'Josefin Sans';
   font-syle: italic;
 }
 
@@ -217,7 +217,7 @@ html {
 
 /*start of popup*/
 .exclusions {
-  font-family: Georgia;
+  font-family: 'Josefin Sans';
   font-size: 8pt;
   letter-spacing: 1px;
   text-shadow: none;
@@ -278,7 +278,7 @@ html {
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Georgia, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: italic;
 }
 
@@ -607,13 +607,13 @@ body.overflow {
     font-size: 42px;
     line-height: 70px;
     font-weight: 400;
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
     text-transform: uppercase;
 }
 
 .h2.style-1 {
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     line-height: 50px;
     color: #3c3c3c;
     text-transform: capitalize;
@@ -634,7 +634,7 @@ body.overflow {
 
 .h4 {
     font-size: 20px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
     text-transform: uppercase;
     line-height: 30px;
     font-weight: 400;
@@ -643,17 +643,17 @@ body.overflow {
 .h4.style-2 {
     font-size: 22px;
     line-height: 30px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-weight: 700;
 }
 
 .h4.style-1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
 }
 
 .h5 {
     font-size: 28px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     line-height: 32px;
 }
 
@@ -679,15 +679,15 @@ body.overflow {
 }
 
 .font-fam-1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
 }
 
 .font-fam-2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
 }
 
 .font-fam-3 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
 }
 
 .button-style {
@@ -749,7 +749,7 @@ body.overflow {
     font-size: 13px;
     font-weight: 700;
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     padding: 0px 47px;
 }
 
@@ -832,7 +832,7 @@ body.overflow {
     text-align: center;
     background: rgba(0, 0, 0, 0.15);
     letter-spacing: 1px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
 }
 
 .button-style-3:hover, .button-style-3:focus {
@@ -846,7 +846,7 @@ body.overflow {
     left: 20px;
     top: -10px;
     right: 20px;
-    height: 134px;
+    height: 14px;
     padding: 30px;
     opacity: 0;
     z-index: 50;
@@ -1197,7 +1197,7 @@ body.overflow {
 .list-menu > li {
     font-size: 62px;
     line-height: 80px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
     position: relative;
     padding-bottom: 43px;
     padding-left: 75px;
@@ -1298,7 +1298,7 @@ body.overflow {
     font-size: 24px;
     line-height: 26px;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     padding-left: 60px;
     padding-bottom: 35px;
 }
@@ -1536,7 +1536,7 @@ body.start .header-style-1 {
   .section-about {
 	padding-top: 96px;
 	padding-bottom: 100px;
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "'Josefin Sans'", sans-serif;
 	color: #838383;
 }
 
@@ -1567,7 +1567,7 @@ body.start .header-style-1 {
 
 .section-about .border-style {
 	padding: 3px;
-    background-image: url(/img/grass.jpg);
+    color: white;
     background-size: cover;
 }
 
@@ -1633,6 +1633,7 @@ body.start .header-style-1 {
     top: 20px;
     left: 20px;
     text-transform: uppercase;
+    font-family: 'lino';
     font-size: 14px;
     color: #fff;
     background-image: url(/img/grass.jpg);
@@ -1890,7 +1891,7 @@ body.start .header-style-1 {
   }
   
   h3 {
-    font-family: 'Libre Baskeville', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-weight: 600;
     color: #333;
     font-size: 1.825rem;
@@ -1908,7 +1909,7 @@ body.start .header-style-1 {
   }
   
   .service h4 {
-    font-family: 'Libre Baskeville', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-weight: 600;
     color: #56ceba;
     font-size: 1rem;
@@ -2246,7 +2247,7 @@ section {
     font-size: 22px;
     line-height: 30px;
     color: #737373;
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
 }
 
 .sub-title {
@@ -2259,7 +2260,7 @@ section {
 }
 
 .sub-title span {
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
     font-style: italic;
     color: #000;
 }
@@ -2493,7 +2494,7 @@ section {
 .images-block-title p {
     font-size: 20px;
     color: #737373;
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
 }
 
 .animation-img.animated .bottom-img .image, .animation-img.animated .top-img .image {
@@ -2530,7 +2531,7 @@ section {
     height: 100%;
     text-align: center;
     font-size: 24px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
     line-height: 36px;
     height: 36px;
     letter-spacing: 0.4px;
@@ -2617,7 +2618,7 @@ section {
     z-index: -5;
     background: #fff;
     font-size: 24px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: ''Josefin Sans'', serif;
     color: rgba(60, 60, 60, 0.5);
     opacity: 0;
 }
@@ -2714,7 +2715,7 @@ section {
 }
 
 .share-link i:after {
-    font-family: "fontello";
+    font-family: "'Josefin Sans'";
     position: absolute;
     top: 0px;
     color: #000;
@@ -3590,7 +3591,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
 
     .align-scroll img {
         width: auto;
-        max-width: 73px;
+        max-width: 120px;
     }
 
     .menu-icon .hover-icon.search-menu:after, .header-style-1.scrol .menu-icon .hover-icon.shop-menu:after {
@@ -4010,7 +4011,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
 
 .second-caption.style-2 .simple-text p {
     color: rgba(0, 0, 0, 0.5);
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     padding-bottom: 30px;
 }
 
@@ -4370,7 +4371,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
 
 .play-button i:after {
     content: '\e806';
-    font-family: "fontello";
+    font-family: "'Josefin Sans'";
     font-style: normal;
     font-weight: normal;
     position: absolute;
@@ -4789,7 +4790,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     font-size: 18px;
     line-height: 30px;
     color: rgba(0, 0, 0, 0.6);
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
 }
 
 .date {
@@ -5094,7 +5095,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     text-transform: uppercase;
     color: #b9b9b9;
     font-weight: 700;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
 }
 
 .list-style {
@@ -5143,7 +5144,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
 }
 
 .category-item.type-2 .sub-title span {
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-style: normal;
     color: #b69176;
     letter-spacing: 1px;
@@ -5638,14 +5639,14 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     text-transform: uppercase;
     color: #000;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     letter-spacing: 1px;
     line-height: 1.5;
     margin-bottom: 24px;
 }
 
 .contact-box p, .contact-box a {
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     font-size: 16px;
     color: #535353;
 }
@@ -5808,7 +5809,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     line-height: 1.5;
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     margin-bottom: 30px;
 }
 
@@ -5831,7 +5832,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     color: #3b3c49;
     margin-bottom: 45px;
 }
@@ -5959,7 +5960,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     color: #b8b8b8;
     font-size: 13px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
     text-align: center;
     text-transform: uppercase;
     margin: 29px 0 25px;
@@ -5971,7 +5972,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     font-size: 22px;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ''Josefin Sans'', sans-serif;
 }
 
 @media screen and (max-width: 768px) {
