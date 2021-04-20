@@ -5,7 +5,7 @@ define('SITE_EMAIL', 'test@test.com');
     /* recipients */
     $to1= SITE_EMAIL;
     /* subject */
-    $subject1 = "Floris Theme Subject";
+    $subject1 = "UnitFifteen Theme Subject";
     /* message */
     $message1 = '<table width="100%" border="0" cellspacing="0" cellpadding="0">
 		

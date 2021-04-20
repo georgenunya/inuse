@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" /> 
+            <link rel="shortcut icon" href="favicon.ico"/> 
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">  
+            <link href="css/fontello.css" rel="stylesheet" type="text/css"/>   
+            <link href="css/style.css" rel="stylesheet" type="text/css"/>     
+      <title>UnitFifteen - Gallery</title>
+  </head>
+<body>
+
+<!--==========HEADER============-->
+<header class="header-style-1">
+    <div class="burger-menu"><span></span></div>
+    <a href="index.html" class="logo align-scroll"><img src="img/logo.png" alt=""></a>
+        <nav class="slide-menu">
+			<div class="table-align">
+			<div class="cell-view">
+			<div class="container-menu">
+				<ul class="list-menu">
+					<li><a href="index.html"><span>Home</span></a></li>
+					<li><a href="about.html"><span>About</span></a></li>
+					<li><a href="contact.html"><span>Contact</span></a></li>
+				</ul>
+			</div> 
+			</div>
+	<div class="menu-folow share-link">
+					<a href="https://www.facebook.com/unit15fifteen/"><i class="icon-facebook"></i></a>
+					<a href="https://twitter.com/fifteenunit/"><i class="icon-twitter"></i></a>
+					<a href="https://www.instagram.com/unit.fifteen/"><i class="icon-instagram"></i></a>
+	</div>
+	</div>
+        </nav>
+</header>
+    
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-e159948b-72f2-45b5-8574-b5b74a3814db"></div>
+    
+	  <footer>
+		<div class="container">
+		<div class="footer">
+		<div class="footer-folow share-link">
+				<a href="#"><i class="icon-facebook"></i></a>
+				<a href="#"><i class="icon-twitter"></i></a>
+				<a href="#"><i class="icon-instagram"></i></a>
+		</div>
+				<ul class="footer-nav">
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Terms And Conditions</a></li>
+			</ul>
+			<div class="copyright"><span>Development by Nunya Marketing</span></div>
+			</div>  
+		</div>
+	</footer>
+      
+     </div>
+
+     
+    
+<script>
+	function submitForm() {
+		$.ajax({type:'POST', url:'email-action.php', data:$('#contact-form').serialize(), success: function(response) {
+		   $('.submit').html('send');
+		   $('.contact-form').addClass('active');
+		   document.contactform.reset();                                 
+		}});                
+		return false;
+	}	
+</script>                                                      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+<script src="js/SmoothScroll.js"></script>
+<script src="js/jarallax.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>				   

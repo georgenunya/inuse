@@ -2,7 +2,7 @@
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*This is main CSS file that contains custom style rules used in this template*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: FLORIS.*/
+/* Template Name: UnitFifteen.*/
 /* Version: 1.0 Initial Release*/
 /* Build Date: 12-05-2016*/
 /* Author: Azelab.*/
@@ -33,6 +33,14 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700italic,600italic,600,400italic,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800);
+@font-face {
+    font-family: 'lino';
+    src: url('fonts/didotlh-roman-webfont.woff2') format('woff2'),
+    url('fonts/didotlh-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*===========RESET==============*/
 
@@ -462,7 +470,7 @@ body.overflow {
 }
 
 .bg-grey {
-    background: #fafafa;
+    background: #ffffff;
 }
 
 .bg-grey1 {
@@ -865,7 +873,9 @@ body.overflow {
 }
 
 .header-style-1.scrol {
-    background: #fff;
+    background-image: url(/img/grassmenu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     height: 80px;
 }
@@ -919,7 +929,6 @@ body.overflow {
     position: absolute;
     width: 72px;
     height: 72px;
-    background: #fff;
     cursor: pointer;
     padding: 27px 24px;
     z-index: 5;
@@ -941,7 +950,8 @@ body.overflow {
 }
 
 .burger-menu span, .burger-menu span:before, .burger-menu span:after {
-    background: #3c3c3c;
+    background-image: url(/img/wood.jpg);
+    background-size: contain;
     transition: all 0.2s ease-out;
     -webkit-transition: all 0.2s ease-out;
     -ms-transition: all 0.2s ease-out;
@@ -1138,7 +1148,7 @@ body.overflow {
     width: 100%;
     height: 100%;
     border: 20px solid #fff;
-    background: #4d9726;
+    background: #ffffff;
     text-align: left;
     visibility: hidden;
     opacity: 0;
@@ -1221,7 +1231,7 @@ body.overflow {
     position: absolute;
     width: 0px;
     height: 2px;
-    background: #3c3c3c;
+    background: #000000;
     right: 100%;
     top: 36px;
     transform: translateX(43px);
@@ -1698,10 +1708,9 @@ body.start .header-style-1 {
 	top: 0;
 	position: absolute;
 	box-sizing: border-box;
-	background-color: #0A0220;
-    background-image: url(/img/grass.jpg);
-    background-size: cover;
-	padding: 30px;
+	background-color: #ffffff;
+    margin-top: 20px;
+	padding: 60px;
 	width: 450px;
 	text-align: center;
 	transition: transform 0.4s;
@@ -1716,9 +1725,11 @@ body.start .header-style-1 {
 }
 .testimonials .item p {
     margin-top: 10px;
-	color: rgb(0, 0, 0);
-    background-image: url(/img/wood.jpg);
-    background-size: cover;
+    background-image: url(/img/grass.jpg);
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .testimonials .item h2 {
 	font-size: 14px;
@@ -3536,7 +3547,9 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
 
 @media (max-width: 480px) {
     .header-style-1 {
-        background: #f8f9fb;
+        background-image: url(/img/grassmenu.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 42px;
         right: 6px;
         left: 6px;
@@ -4794,6 +4807,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     color: rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
     font-weight: 600;
+    text-align: center;
     display: block;
 }
 
@@ -5602,7 +5616,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
 .info-section {
     padding-top: 209px;
     padding-bottom: 110px;
-    background: #fafafa;
+    background: #ffffff;
 }
 
 @media screen and (max-width: 992px) {
@@ -6582,133 +6596,6 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
     }
 }
 
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 12 - FAQ PAGE */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-.faq-container {
-    max-width: 800px;
-    margin: 0 auto 110px;
-    padding: 0 15px;
-}
-
-@media screen and (max-width: 992px) {
-    .faq-container {
-        margin-bottom: 80px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .faq-container {
-        margin-bottom: 50px;
-    }
-}
-
-.faq-container:last-of-type {
-    margin-bottom: 0;
-}
-
-.title-faq {
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 1px;
-    color: #3b3c49;
-    margin-bottom: 65px;
-}
-
-@media screen and (max-width: 992px) {
-    .title-faq {
-        margin-bottom: 45px;
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .title-faq {
-        margin-bottom: 30px;
-        font-size: 18px;
-    }
-}
-
-.accordion-item {
-    border: 1px solid #c8c9c9;
-    margin-bottom: 5px;
-    padding-left: 30px;
-    padding-right: 20px;
-}
-
-.accordion-title {
-    color: #3b3c49;
-    font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-size: 13px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    cursor: pointer;
-    padding-right: 30px;
-    position: relative;
-    -webkit-transition: color 0.3s ease;
-    transition: color 0.3s ease;
-}
-
-.accordion-title:hover {
-    color: #b69176;
-}
-
-.accordion-title:after {
-    content: '';
-    width: 20px;
-    height: 2px;
-    position: absolute;
-    right: 0;
-    top: 27px;
-    background: #b69176;
-}
-
-.accordion-title:before {
-    content: '';
-    width: 2px;
-    height: 20px;
-    position: absolute;
-    right: 9px;
-    top: 18px;
-    background: #b69176;
-    -webkit-transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
-.accordion-title.active:before {
-    height: 0;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-}
-
-.accordion-content {
-    display: none;
-}
-
-.accordion-content.open {
-    display: block;
-}
-
-.accordion-content {
-    color: #535353;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    padding-right: 10px;
-    padding-bottom: 20px;
-}
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 13 - ABOUT PAGE */
@@ -6815,7 +6702,7 @@ body.overflow .header-style-1.type-3 .menu-icon .hover-icon:after {
 }
 
 .about-block {
-    background: #fafafa;
+    background: #ffffff;
 }
 
 .about-images-row {
