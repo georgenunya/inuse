@@ -12,15 +12,12 @@
 <link rel="manifest" href="/favicons/site.webmanifest">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">  
-            <link href="css/'Josefin Sans'.css" rel="stylesheet" type="text/css"/>   
             <link href="css/style.css" rel="stylesheet" type="text/css"/>     
 			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
 			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
 			<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&display=swap" rel="stylesheet">
-
-
-	<title>UnitFifteen</title>
+<title>UnitFifteen</title>
 </head>
 
 
@@ -54,7 +51,14 @@
 
 <div class="hero-image" style="height: 100%;">
 	<div class="hero-text">
-		<h1 style="font-family: Lino; font-size:100px; background-image: url(/img/grass.jpg); background-size: contain; background-clip: text; -webkit-background-clip: text; color: transparent;">Relax.</h1>
+		<h1 class="typing">
+			Its time to
+			<span
+			class="txt-rotate"
+			data-period="2000"
+			data-rotate='[ "RELAX.", "CHILL.", "GETAWAY." ]'>
+			</span>
+		</h1>
 	</div>
 </div>
 
@@ -111,8 +115,7 @@
 							<span class="price">From £25</span>
 							<div class="infos">
 								<h4 class="date">Manicures</h4>
-								<a href="contact.html" class="title">Book Now</a>
-								<a href="contact.html" class="icon"><i class="far fa-calendar-check"></i></a>
+								<a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="title">Book Now</a>
 							</div>
 						</div>
 					</div>
@@ -125,8 +128,7 @@
 							<span class="price">From £35</span>
 							<div class="infos">
 								<h4 class="date">Hair</h4>
-								<a href="contact.html" class="title">Book Now</a>
-								<a href="contact.html" class="icon"><i class="far fa-calendar-check"></i></a>
+								<a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="title">Book Now</a>
 							</div>
 						</div>
 					</div>
@@ -139,8 +141,7 @@
 							<span class="price">From £40</span>
 							<div class="infos">
 								<h4 class="date">Massages</h4>
-								<a href="contact.html" class="title">Book Now</a>
-								<a href="contact.html" class="icon"><i class="far fa-calendar-check"></i></a>
+								<a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="title">Book Now</a>
 							</div>
 						</div>
 					</div>
@@ -213,15 +214,15 @@
     <div class="container">
     <div class="footer">
     <div class="footer-folow share-link">
-            <a href="#"><i class="icon-facebook"></i></a>
-            <a href="#"><i class="icon-twitter"></i></a>
-            <a href="#"><i class="icon-instagram"></i></a>
+            <a href="https://www.facebook.com/unit15fifteen/"><i class="icon-facebook"></i></a>
+            <a href="https://twitter.com/fifteenunit/"><i class="icon-twitter"></i></a>
+            <a href="https://www.instagram.com/unit.fifteen/"><i class="icon-instagram"></i></a>
     </div>
             <ul class="footer-nav">
-            <li><a href="#">Privacy Policy</a></li>
-			<li><a href="#">Terms And Conditions</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+			<li><a href="terms.html">Terms And Conditions</a></li>
+			<li><a href="https://www.nunyamarketing.uk/">Development by Nunya Marketing</a></li>
         </ul>
-        <div class="copyright"><span>Development by Nunya Marketing</span></div>
         </div>  
     </div>
 </footer>
@@ -236,7 +237,65 @@
 		}});                
 		return false;
 	}	
-</script>                                       
+</script>   
+<script>
+	var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>                                    
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -254,5 +313,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
 <script src="js/SmoothScroll.js"></script>
 <script src="js/all.js"></script>
+<script type="text/javascript" id="cookieinfo"
+	src="//cookieinfoscript.com/js/cookieinfo.min.js"
+	data-bg="#000000"
+	data-fg="#FFFFFF"
+	data-link="#1B663E"
+	data-cookie="CookieInfoScript"
+	data-text-align="left"
+    data-close-text="Got it!">
+</script>
 </body>
 </html>				   
