@@ -96,7 +96,7 @@ img {
 
 .card {
   background-color: white;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.541);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -105,7 +105,7 @@ img {
 
 .card:hover {
   background-color: #fff;
-  box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.582);
 }
 
 .card_content {
@@ -270,7 +270,7 @@ html {
 }
 body {
 	font-size: 17px;
-	font-family: "Amiri", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	color: #666;
 	background: #000;
 	-moz-osx-font-smoothing: grayscale;
@@ -278,11 +278,11 @@ body {
 }
 body.lato {
 	font-size: 16px;
-	font-family: "Lato", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 }
 body.frank-ruhl-libre {
 	font-size: 16px;
-	font-family: "Frank Ruhl Libre", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-family: "Noto Sans JP", sans-serif;
 }
 strong {
 	font-weight: 600;
@@ -368,7 +368,7 @@ a p {
 p.small {
 	font-size: 14px !important;
 	font-weight: 400;
-	font-family: Oswald, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	text-transform: uppercase;
 	padding-bottom: 5px;
 	opacity: 0.5;
@@ -441,7 +441,7 @@ blockquote::before {
 	content: "“" !important;
 	position: absolute;
 	display: block;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Noto Sans JP", sans-serif;
 	font-size: 46px;
 	left: 0;
 	top: -55px;
@@ -474,7 +474,7 @@ blockquote footer {
 	font-size: 13px !important;
 	margin-right: 10px;
 	font-weight: 400;
-	font-family: Oswald, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	text-transform: uppercase;
 }
 .button:hover {
@@ -539,7 +539,7 @@ h1#logo a {
 	display: block;
 	position: relative;
 	font-weight: 400;
-	font-family: Oswald, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	text-transform: uppercase;
 }
 .white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6 {
@@ -812,7 +812,7 @@ header .phone-number i.fa {
 	display: block;
 	font-size: 24px !important;
 	font-weight: 400;
-	font-family: Oswald, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	text-transform: uppercase;
 }
 #main-nav ul li a:hover, #main-nav ul li a.selected {
@@ -1059,7 +1059,7 @@ div.full-height.not-completely-full {
 	bottom: 40px;
 	left: 40px;
 	z-index: 500;
-	font-family: Oswald, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
 }
@@ -1088,7 +1088,7 @@ div.full-height.not-completely-full {
 	margin: 0 25px;
 	opacity: 0.5;
 	font-weight: 400;
-	font-family: Oswald, Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Noto Sans JP", sans-serif;
 	text-transform: uppercase;
 }
 .nav-tabs > li > a:hover {
@@ -1243,7 +1243,7 @@ h3.panel-title {
 /* =8. Intro Backgrounds
 --------------------------------------------------------------------------------------------------------*/
 .background-image1 {
-	background: url(../images/fullscreen02.jpg) no-repeat center;
+	background: url(../images/hero3.jpg) no-repeat center;
 	height: 100%;
 	display: block;
 	width: 100%;
