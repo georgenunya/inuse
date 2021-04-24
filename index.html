@@ -148,16 +148,7 @@
 
 			<!-- start of slider -->
 
-<div class="slider">
-    <div class="slide" data-background="/images/hero.jpg"></div>
 
-
-    <div class="slide" data-background="/images/hero2.jpg"></div>
-
-
-    <div class="slide" data-background="/images/hair.jpg"></div>
-
-</div>
 
 
 <div class="row home-default-about">
@@ -195,6 +186,7 @@
 	<div class="main">
 		<ul class="cards">
 		  <li class="cards_item">
+			  <a href="aesthetics.html">
 			<div class="card">
 			  <div class="card_image"><img src="https://picsum.photos/500/300/?image=10"></div>
 			  <div class="card_content">
@@ -203,6 +195,7 @@
 				<button class="btn card_btn">BOOK NOW</button>
 			  </div>
 			</div>
+			</a>
 		  </li>
 		  <li class="cards_item">
 			<div class="card">
@@ -273,31 +266,6 @@
 		<div class="col-sm-2"></div>
 	</div>
 
-	<script>
-		const slideArray = [];
-	for (let i = 0; i < document.querySelectorAll('.slider div').length; i++) {
-		slideArray.push(document.querySelectorAll('.slider div')[i].dataset.background);
-	}
-	
-	let currentSlideIndex = -1;
-	
-	function advanceSliderItem() {
-		currentSlideIndex++;
-	
-		if (currentSlideIndex >= slideArray.length) {
-			currentSlideIndex = 0;
-		}
-	
-		document.querySelector('.slider').style.cssText = 'background: url("' + slideArray[currentSlideIndex] + '") no-repeat center center; background-size: cover;';
-	
-		const elems = document.getElementsByClassName('caption');
-		for (let i = 0; i < elems.length; i++) {
-			elems[i].style.cssText = 'opacity: 0;';
-		}
-		}
-	
-		let intervalID = setInterval(advanceSliderItem, 3000);
-	</script>
 
 	<div class="caroufredsel product-slider" data-scroll-fx="" data-speed="" data-easing="" data-visible-min="1" data-scroll-item="" data-responsive="1" data-infinite="1" data-autoplay="0">
 		<div class="caroufredsel-wrap">
