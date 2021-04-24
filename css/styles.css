@@ -25,6 +25,8 @@
 
 /*card section*/ 
 
+
+
 /* start of card sections */
 
 /* Design */
@@ -530,7 +532,7 @@ h1#logo a {
 	display: block;
 }
 .white-header h1#logo a {
-	background: url(../images/bg-logo-black.png) center no-repeat;
+	background: url(../images/bg-logo.png) center no-repeat;
 	background-size: 85px 30px;
 }
 .numbers, h1, h2, h3, h4, h5, h6 {
@@ -628,7 +630,7 @@ header .phone-number i.fa {
 	font-size: 14px;
 	display: table;
 	height: 100px;
-	position: absolute;
+	position: fixed;
 	left: 20px;
 	top: 0px;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -725,7 +727,7 @@ header .phone-number i.fa {
 }
 #nav-wrapper {
 	position: fixed;
-	background: #fff;
+	background: rgb(0, 0, 0);
 	height: 100%;
 	padding: 100px 75px;
 	width: 300px;
@@ -852,7 +854,8 @@ header .phone-number i.fa {
 /* =6. Main Content
 --------------------------------------------------------------------------------------------------------*/
 #header {
-	position: absolute;
+	position: fixed;
+	background: black;
 	width: 100%;
 	height: auto;
 	z-index: 98;
