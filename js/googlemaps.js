@@ -19,7 +19,7 @@
             featureType: "poi",
             elementType: "all",
             stylers: [{
-                visibility: "off"
+                visibility: "on"
             }]
         }, {
             featureType: "road",
@@ -44,8 +44,9 @@
         }];
         var map;
         var mapOptions = {
-            center: new google.maps.LatLng(51.9599775, 6.9936886),
-            zoom: 4,
+            center: new google.maps.LatLng(51.64579065680081, 0.4501208586616973),
+            zoom: 18,
+            mapTypeId: "satellite",
             scrollwheel: false,
             panControl: false,
             mapTypeControl: false,
@@ -61,7 +62,7 @@
             var bounds = new google.maps.LatLngBounds();
             var myIcon = new google.maps.MarkerImage("images/icons/location-pin-3.png", null, null, null, new google.maps.Size(48, 48));
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(50.9599775, 6.9936886),
+                position: new google.maps.LatLng(51.64579065680081, 0.4501208586616973),
                 map: map,
                 title: 'Safarihub',
                 icon: myIcon
