@@ -13,7 +13,7 @@
             stylers: [{
                 color: '#aaaaaa'
             }, {
-                visibility: "on"
+                visibility: "off"
             }]
         }, {
             featureType: "poi",
@@ -45,7 +45,7 @@
         var map;
         var mapOptions = {
             center: new google.maps.LatLng(51.64579065680081, 0.4501208586616973),
-            zoom: 18,
+            zoom: 15,
             scrollwheel: false,
             panControl: false,
             mapTypeControl: false,
