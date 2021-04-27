@@ -397,7 +397,7 @@ p.small.below-header {
 	margin-bottom: 12px;
 }
 p.large, article p {
-	font-size: 120%;
+	font-size: 100%;
 	padding: 0px 0 5px;
 }
 p.details {
@@ -517,30 +517,27 @@ blockquote footer {
 
 h1#logo {
 	position: relative;
-	height: 30px;
-	width: 85px;
+	height: 60px;
+	width: 170px;
 	padding: 0 !important;
 	margin: 0 auto;
-	display: block
+	display: block;
 }
 h1#logo a {
 	background: url(../images/bg-logo.png) center no-repeat;
-	background-size: 85px 30px;
-	width: 85px;
-	height: 30px;
+	background-size: 170px 60px;
+	width: 170px;
+	height: 60px;
 	text-indent: -9999px;
-	display: block;
-}
-.white-header h1#logo a {
-	background: url(../images/bg-logo.png) center no-repeat;
-	background-size: 85px 30px;
+	display: inline-block;
+	font-size: 0px;
 }
 .numbers, h1, h2, h3, h4, h5, h6 {
 	line-height: 1.35;
 	color: #2b2b2b;
 	display: block;
 	position: relative;
-	font-weight: 400;
+	font-weight: 200;
 	font-family: "Noto Sans JP", sans-serif;
 	text-transform: uppercase;
 }
@@ -566,7 +563,7 @@ h3 {
 	margin-top: 10px;
 }
 h4 {
-	font-size: 22px;
+	font-size: 20px;
 }
 h5 {
 	font-size: 18px;
@@ -632,7 +629,7 @@ header .phone-number i.fa {
 	height: 100px;
 	position: fixed;
 	left: 20px;
-	top: 0px;
+	top: 17px;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	z-index: 1111;
 	opacity: 1 !important;
@@ -1109,7 +1106,7 @@ div.full-height.not-completely-full {
 	background-size: 36px 36px;
 }
 .nav-tabs li a#second-tab {
-	background: url(../images/icons/winner.png) no-repeat top center;
+	background: url(../images/icons/heart-circle.png) no-repeat top center;
 	background-size: 36px 36px;
 }
 .nav-tabs li a#third-tab {
@@ -1386,7 +1383,7 @@ h3.panel-title {
 	top: 0;
 }
 .background-image9 {
-	background: url(../images/fullscreen14.jpg) no-repeat center;
+	background: url(../images/pricing.jpg) no-repeat center;
 	height: 100%;
 	display: block;
 	width: 100%;
@@ -1474,8 +1471,8 @@ h3.panel-title {
 /* =9. Icons
 --------------------------------------------------------------------------------------------------------*/
 .social-list {
-	padding-bottom: 15px;
-	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	margin: 0;
 	font-size: 0;
 }
