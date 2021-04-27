@@ -46,7 +46,6 @@
         var mapOptions = {
             center: new google.maps.LatLng(51.64579065680081, 0.4501208586616973),
             zoom: 18,
-            mapTypeId: "satellite",
             scrollwheel: false,
             panControl: false,
             mapTypeControl: false,
