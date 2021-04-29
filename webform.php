@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 
 <?php
-echo "<pre>";
 
-print_r($_POST);
 
-echo '</pre>'
+if(isset($_POST['email']) && $_POST['email'] != ''){   
+    // sumbit the form 
 
-$userName = $_POST['name'];
+    $userName = $_POST['name'];
 $userEmail = $_POST['email'];
 $message = $_POST['message'];
 
@@ -19,6 +18,9 @@ $body .= "Email: ".$userEmail. "\r\n";
 $body .= "Message: ".$message. "\r\n";
 
 mail($to,$body);
+
+
+}
 
 ?>
 
