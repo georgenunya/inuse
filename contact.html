@@ -112,14 +112,12 @@
         <div class="col-md-7 col-md-offset-1 col-sm-6 extra-padding-right">
 
 
-          <form class="form-part" method="POST" action="contact.php" name="contactform" id="contactform" autocomplete="off">
-            <input name="name" type="text" id="name" size="30" title="Name" />
-            <input name="email" type="text" id="email" size="30" title="Email" />
-            <textarea name="comments" cols="40" rows="3" id="comments" title="Message"></textarea>
-            <div class="input-wrapper clearfix"> <span id="message"></span>
-              <div class="clear"></div>
-              <input type="submit" class="button" value="Submit" id="submit" name="Submit" />
-            </div>
+          <form class="form-part" method="POST" action="contactform.php" name="contactform" id="contactform" autocomplete="off">
+            <input class="small" type="text" name="name" placeholder="Full Name">
+            <input class="small" type="text" name="mail" placeholder="Your Email">
+            <input class="small" type="text" name="subject" placeholder="Subject">
+            <textarea class="small" name="message" placeholder="Message"></textarea>
+            <button class="button" type="submit" name="submit">SEND MAIL</button>
           </form>
 
 
