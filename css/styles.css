@@ -692,10 +692,10 @@ Image credits: unsplash.com
     top: 50%;
     left: 50%;
     z-index: 3;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
       -webkit-transform: translate3d(-50%,-50%,0);
          -moz-transform: translate3d(-50%,-50%,0);
           -ms-transform: translate3d(-50%,-50%,0);
@@ -703,8 +703,18 @@ Image credits: unsplash.com
               transform: translate3d(-50%,-50%,0);
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 6em;   
+	color: white; 
+	box-shadow: black;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.hero h3 {
+    font-size: 3em;   
+	color: white; 
+    font-weight: 300;
     margin: 0;
     padding: 0;
 }
@@ -1091,7 +1101,8 @@ header .phone-number i.fa {
 	text-transform: uppercase;
 }
 #main-nav ul li a:hover, #main-nav ul li a.selected {
-	color: rgba(43,43,43,1);
+	background-image: url(/images/grass.jpg);
+	background-size: contain;
 }
 #main-nav ul li ul {
 	padding-top: 6px;
