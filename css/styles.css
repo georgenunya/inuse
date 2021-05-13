@@ -695,7 +695,7 @@ Image credits: unsplash.com
     color: rgb(0, 0, 0);
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.75);
+    text-shadow: 1px 1px 0 rgba(46, 46, 46, 0.75);
       -webkit-transform: translate3d(-50%,-50%,0);
          -moz-transform: translate3d(-50%,-50%,0);
           -ms-transform: translate3d(-50%,-50%,0);
