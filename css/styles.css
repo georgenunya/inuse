@@ -712,7 +712,8 @@ Image credits: unsplash.com
   
   .slide .content {
 	position: absolute;
-	bottom: 130px;
+	min-height: 40vh;
+	bottom: 230px;
 	left: -600px;
 	opacity: 0;
 	width: 600px;
