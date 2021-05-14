@@ -54,54 +54,95 @@
     </ul>
   </header>
   <!-- end header --> 
-  <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-    <!-- Overlay -->
-  
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#bs-carousel" data-slide-to="1"></li>
-      <li data-target="#bs-carousel" data-slide-to="2"></li>
-    </ol>
-    
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item slides active">
-        <div class="slide-1">
-            <div class="overlay"></div>
-        </div>
-        <div class="hero">
-          <hgroup>
-              <h1>Welcome</h1>        
-              <h3>To Unit Fifteen</h3>
-          </hgroup>
-        </div>
+  <div class="slider">
+    <div class="slide current">
+      <div class="content">
+        <h1>Welcome <br> To Unit Fifteen</h1>
       </div>
-      <div class="item slides">
-        <div class="slide-2">
-            <div class="overlay"></div>
-        </div>
-        <div class="hero">        
-          <hgroup>
-              <h1>Your Private Retreat</h1>
-          </hgroup>       
-        </div>
+    </div>
+    <div class="slide">
+      <div class="content">
+        <h1>
+          Your Private Retreat</h1>
       </div>
-      <div class="item slides">
-        <div class="slide-3">
-            <div class="overlay"></div>
-        </div>
+    </div>
+    <div class="slide">
+      <div class="content">
+        <h1>CND Qualified</h1>
       </div>
-    </div> 
+    </div>
   </div>
+  <div class="buttons">
+    <button id="prev"><i class="fa fa-long-arrow-left"></i></button>
+    <button id="next"><i class="fa fa-long-arrow-right"></i></i></button>
+  </div>
+
   <script>
-    
+    const slides = document.querySelectorAll('.slide');
+const next = document.querySelector('#next');
+const prev = document.querySelector('#prev');
+const auto = true; // Auto scroll
+const intervalTime = 2500;
+let slideInterval;
+
+const nextSlide = () => {
+  // Get current class
+  const current = document.querySelector('.current');
+  // Remove current class
+  current.classList.remove('current');
+  // Check for next slide
+  if (current.nextElementSibling) {
+    // Add current to next sibling
+    current.nextElementSibling.classList.add('current');
+  } else {
+    // Add current to start
+    slides[0].classList.add('current');
+  }
+  setTimeout(() => current.classList.remove('current'));
+};
+
+const prevSlide = () => {
+  // Get current class
+  const current = document.querySelector('.current');
+  // Remove current class
+  current.classList.remove('current');
+  // Check for prev slide
+  if (current.previousElementSibling) {
+    // Add current to prev sibling
+    current.previousElementSibling.classList.add('current');
+  } else {
+    // Add current to last
+    slides[slides.length - 1].classList.add('current');
+  }
+  setTimeout(() => current.classList.remove('current'));
+};
+
+// Button events
+next.addEventListener('click', e => {
+  nextSlide();
+  if (auto) {
+    clearInterval(slideInterval);
+    slideInterval = setInterval(nextSlide, intervalTime);
+  }
+});
+
+prev.addEventListener('click', e => {
+  prevSlide();
+  if (auto) {
+    clearInterval(slideInterval);
+    slideInterval = setInterval(nextSlide, intervalTime);
+  }
+});
+
+// Auto slide
+if (auto) {
+  // Run next slide at interval time
+  slideInterval = setInterval(nextSlide, intervalTime);
+}
+
   </script>
   <!-- start content -->
   <div id="content">
-    
-  
-    
     
 
 
@@ -131,7 +172,7 @@
             <h2 class="card_title">Aesthetics</h2>
             <p class="card_text"></p>
             
-            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="btn card_btn">Book Now</a>
+            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="button -regular btn card_btn">Book Now</a>
             </div>
           </div>
           
@@ -142,7 +183,7 @@
             <div class="card_content">
             <h2 class="card_title">Facials</h2>
             <p class="card_text"></p>
-            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="btn card_btn">Book Now</a>
+            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="button -regular btn card_btn">Book Now</a>
             </div>
           </div>
 
@@ -153,7 +194,7 @@
             <div class="card_content">
             <h2 class="card_title">Hair</h2>
             <p class="card_text"></p>
-            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="btn card_btn">Book Now</a>
+            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="button -regular btn card_btn">Book Now</a>
             </div>
           </div>
 
@@ -164,7 +205,7 @@
             <div class="card_content">
             <h2 class="card_title">Massage</h2>
             <p class="card_text"></p>
-            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="btn card_btn">Book Now</a>
+            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="button -regular btn card_btn">Book Now</a>
             </div>
           </div>
           
@@ -175,7 +216,7 @@
             <div class="card_content">
             <h2 class="card_title">Nails</h2>
             <p class="card_text"></p>
-            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="btn card_btn">Book Now</a>
+            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="button -regular btn card_btn">Book Now</a>
             </div>
           </div>
   
@@ -186,7 +227,7 @@
             <div class="card_content">
             <h2 class="card_title">Pamper Packages</h2>
             <p class="card_text"></p>
-            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="btn card_btn">Book Now</a>
+            <a href="https://www.fresha.com/a/unit-fifteen-stock-oaklands-farm-industrial-estate-goatsmoor-lane-98tqmnzo/booking" class="button -regular btn card_btn">Book Now</a>
             </div>
           </div>
        
