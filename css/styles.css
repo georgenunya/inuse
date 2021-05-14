@@ -691,6 +691,7 @@ Image credits: unsplash.com
 	overflow: hidden;
 	height: 100vh;
 	width: 100vw;
+	min-height: -webkit-fill-available;
 	
   }
   
