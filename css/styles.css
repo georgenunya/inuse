@@ -716,7 +716,7 @@ Image credits: unsplash.com
 	left: -600px;
 	opacity: 0;
 	width: 600px;
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: rgb(255, 255, 255);
 	color: #333;
 	padding: 35px;
   }
@@ -787,7 +787,8 @@ Image credits: unsplash.com
   }
   .slide:nth-child(3) {
 	background: url('/images/RICK/10.jpeg') no-repeat
-	  center top/cover;
+	  center left/cover;
+	  background-position: 20%;
   }
 
 /********************************/
